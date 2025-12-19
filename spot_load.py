@@ -371,12 +371,22 @@ df['debut']=pd.to_datetime(df['debut'])
 df['release_date']=pd.to_datetime(df['release_date'])
 df['days_since_release'] = pd.to_datetime('2025-08-02') - df['release_date']
 df['days_since_release']= df['days_since_release'].dt.days
-#df.head()
-
 
 ## Group Age
 df['age_days'] = pd.to_datetime('2025-08-02') - df['debut']
 df['age_days']= df['age_days'].dt.days
 
+## Collab?
+df['collab']=0
+for i in df.index:
+    if df.loc[i,'artist']!=df.loc[i,'associated_kpop_group']:
+        df.loc[i,'collab']=1
+    else:
+        df.loc[i,'collab']=0
+df.head()
+
 ## Main target variable - playlist exposure
 df['playlist_exposure'] = (df['user_playlist_count'] > 0).astype(int)
+
+
+df.to_csv('~/Desktop/full_kpop_data.csv')
