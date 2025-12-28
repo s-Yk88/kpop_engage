@@ -1,3 +1,3 @@
-# K-Pop for a Global Audience: 
+# Measuring Global Discovery Signals of K-Pop from User Playlists
 
 
