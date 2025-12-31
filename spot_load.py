@@ -147,8 +147,9 @@ def get_artist_info(track_id):
         track = sp.track(track_id)
         if track['artists'][0]['id']=='4gzpq5DPGxSnKTe4SA8HAU' or track['artists'][0]['id']=='6VuMaDnrHyPL1p4EHjYLi7'or track['artists'][0]['id']=='164Uj4eKjl6zTBKfJLFKKK':
             artist_id=track['artists'][1]['id']
-        elif track['artists'][0]['id']=='4gOc8TsQed9eqnqJct2c5v' or track['artists'][0]['id']=='4AK6F7OLvEQ5QYCBNiQWHq': #K/DA has 2 profiles
+        elif track['artists'][0]['id']=='4gOc8TsQed9eqnqJct2c5v'": 
             artist_id='2AfmfGFbe0A0WsTYm0SDTx' 
+        # or track['artists'][0]['id']=='4AK6F7OLvEQ5QYCBNiQWHq' later find out K/DA has 2 profiles -- will need to add further checks
         else:
             artist_id = track['artists'][0]['id']
 
@@ -195,7 +196,7 @@ def count_playlist_inclusions(sp, df, search_queries, playlist_limit):
     for query in search_queries:
         print(f"Searching playlists for: '{query}'")
         h = sp.search(q=query, type='playlist', limit=playlist_limit)
-        playlist_ids = set(p['id'] for p in h['playlists']['items']if p!=None)  # we no longer have to filter out spotify editorial-- can't even access
+        playlist_ids = set(p['id'] for p in h['playlists']['items']if p!=None)  # we don't have to filter out spotify editorial-- can't even access
     
   # 2. Gather track appearances in those unique playlists
     for p in playlist_ids:
