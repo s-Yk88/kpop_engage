@@ -3,17 +3,21 @@
 
 This analysis explores how user-curated playlists surface K-pop tracks and whether there are observable differences in engagement signals that explain exposure. Using Spotify API data for the top tracks of 27 K-pop groups, I engineered artist- and track-level features including popularity, label affiliation, group composition, and audio attributes. Then combine exploratory analysis, interpretable modeling, and robustness checks to identify which signals consistently differentiate exposed tracks. The analysis highlights structural patterns in platform indicators that inform music discovery, including the role of company affiliation and audio features in playlist visibility and how exposure correlates with engagement signals.
 
+## Methods:
+- Data Visualization
+- Regression Analysis
+- Feature Engineering
+- Observational Causal Analysis
+  
 ## Models:
-
 - Logistic Regression
-- Elastic Net Regularization
+- Elastic Net
 - Covariate-Adjusted Regression
-- Propensity Score Weighting
 
 ## Tools/ Packages Used:
 
 - R
-    - `corrplot` `tidyverse` `ggplot2`  `car` `caret` `glmnet` `pROC` `vip`
+    - `corrplot` `tidyverse` `ggplot2` `car` `caret` `glmnet` `pROC` `vip` `recipes` `dotwhisker` `ggridges` 
 - Python 3.13.3
     - `spotipy` `pandas` `numpy`  `networkx`
  
