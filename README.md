@@ -31,4 +31,4 @@ https://zesty-bubbler-a87.notion.site/Measuring-Global-Discovery-Signals-of-K-Po
 - Track popularity is a strong predictor of inclusion, but does not fully explain engagement differences.
 - Even after controlling for artist and track features, playlisted tracks show higher engagement.
 - Big 4 affiliation and gender continue to have an effect even after adjustment, suggesting there is also a structural dynamic involved.
-- Playlist inclusion and popularity are likely jointly determined by unobserved factors like marketing, fan mobilization, or platform recommendation systems
+- Playlist inclusion and popularity reinforce one another and are likely to be influenced by unobserved promotional, social, and algorithmic mechanisms.
