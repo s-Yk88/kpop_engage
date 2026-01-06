@@ -1,13 +1,13 @@
 # Measuring Global Discovery Signals of K-Pop from User Playlists
 
 
-This analysis explores how user-curated playlists surface K-pop tracks and whether there are observable differences in engagement signals that explain exposure. Using Spotify API data for the top tracks of 27 K-pop groups, I engineered artist- and track-level features including popularity, label affiliation, group composition, and track attributes. Then combine exploratory analysis, interpretable modeling, and robustness checks to identify which signals consistently differentiate exposed tracks. The analysis highlights structural patterns in platform indicators that inform music discovery, including the role of company affiliation and audio features in playlist visibility and how exposure correlates with engagement signals.
+This analysis explores how user-curated playlists surface K-pop tracks and whether there are observable differences in engagement signals that explain exposure. Using Spotify API data for the top tracks of 27 K-pop groups, I engineered artist- and track-level features including popularity, label affiliation, group composition, and track attributes. Then combine exploratory analysis, interpretable modeling, and robustness checks to identify which signals consistently differentiate exposed tracks. The results illustrate how observable engagement and structural signals may be used to better understand content exposure in algorithmically entwined discovery systems.
 
 ## Methods:
 - Data Visualization
 - Regression Analysis
 - Feature Engineering
-- Observational Causal Analysis
+- Confounder Adjsuted Analysis
   
 ## Models:
 - Logistic Regression
