@@ -7,7 +7,7 @@ This analysis explores how user-curated playlists surface K-pop tracks and wheth
 - Data Visualization
 - Regression Analysis
 - Feature Engineering
-- Confounder Adjsuted Analysis
+- Confounder Adjusted Analysis
   
 ## Models:
 - Logistic Regression
