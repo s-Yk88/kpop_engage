@@ -32,3 +32,4 @@ https://zesty-bubbler-a87.notion.site/Measuring-Global-Discovery-Signals-of-K-Po
 - Even after controlling for artist and track features, playlisted tracks show higher engagement.
 - Big 4 affiliation and gender continue to have an effect even after adjustment, suggesting there is also a structural dynamic involved.
 - Playlist inclusion and popularity reinforce one another and are likely to be influenced by unobserved promotional, social, and algorithmic mechanisms.
+- Findings provide a framework for operationalizing content discovery signals to inform platform strategy, recommendation optimization, and audience development decisions.
